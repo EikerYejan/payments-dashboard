@@ -1,0 +1,27 @@
+.card {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 24px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+.amount {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.currency {
+  font-size: 18px;
+  opacity: 0.8;
+}
+.id {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-top: 16px;
+}
